@@ -427,7 +427,7 @@ h4 {
 
 .header {
   background-color: #043E51;
-  background-image: url("../images/hero-blur-image-bg.png");
+  background-image: url("../../images/png/hero-blur-image-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -589,6 +589,9 @@ h4 {
   color: #757575;
   margin-bottom: 2rem;
 }
+.main .portfolio .portfolio__cards .portfolio__card .portfolio__card__btn {
+  width: 18rem;
+}
 .main .portfolio .portfolio__cards .portfolio__card .portfolio__card__btn:hover {
   color: #FFA63A;
 }
@@ -596,7 +599,7 @@ h4 {
   background-color: #08546C;
   padding: 10rem 0;
   background-color: #043E51;
-  background-image: url("../images/hero-blur-image-bg.png");
+  background-image: url("../../images/png/hero-blur-image-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
