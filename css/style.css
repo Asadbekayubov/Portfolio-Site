@@ -399,6 +399,10 @@ body {
   background-color: #FFFFFF;
 }
 
+main {
+  flex-grow: 1;
+}
+
 h1 {
   font-size: 6.4rem;
   line-height: 1.25;
@@ -619,6 +623,52 @@ h4 {
 .main .testimonial .testimonial-container .testimonial__info .testimonial__info__ceo {
   color: #AABFC6;
   font-size: 1.6rem;
+}
+
+.footer {
+  padding-top: 10rem;
+  padding-bottom: 16rem;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-container .footer__social .footer__logo {
+  margin-bottom: 2rem;
+}
+.footer .footer-container .footer__social .footer__social__text {
+  color: #757575;
+  margin-bottom: 5rem;
+}
+.footer .footer-container .footer__social .footer__icons {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.footer .footer-container .footer__social .footer__icons .footer__icon:hover svg path {
+  fill: #FFA63A;
+}
+.footer .footer-container .footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .footer-container .footer__list .footer__list__title {
+  color: #08546C;
+  font-weight: 500;
+  margin-bottom: 2.8rem;
+}
+.footer .footer-container .footer__list .footer__item .footer__link {
+  color: #787878;
+}
+.footer .footer-container .footer__list address {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .footer-container .footer__list address .footer__link {
+  color: #787878;
+  font-style: normal;
 }
 
 .header__link {
