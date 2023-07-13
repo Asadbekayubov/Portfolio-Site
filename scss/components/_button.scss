@@ -1,0 +1,42 @@
+.header__link{
+    color: $white-color;
+    background-color: $cyan-color-light;
+    padding: 1.5rem 3.4rem;
+    border-radius: 2.5rem;
+}
+
+.header__hero__first__button{
+    background-color: $cyan-color-secondary-light;
+    color: $white-color;
+    font-family: $secondary-font;
+    padding: 1.6rem 3rem;
+    font-size: 2.4rem;
+    border-radius: 3rem;
+    margin-bottom: 4rem;
+}
+
+.header__hero__info__btns__btn:nth-child(1){
+    background-color: $orange-color;
+    padding: 1.6rem 3.5rem;
+    border-radius: 2.5rem;
+    color: $white-color;
+    font-weight: 600;
+}
+.header__hero__info__btns__btn:nth-child(2){
+    background-color: transparent;
+    padding: 1.6rem 0.5rem;
+    border-radius: 2.5rem;
+    color: $white-color;
+    font-weight: 600;
+}
+
+.portfolio__card__btn{
+    display: flex;
+    align-items: center;
+    color: $cyan-color;
+}
+
+
+.portfolio__card__btn img{
+    margin-left: 1rem;
+}
